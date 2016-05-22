@@ -29,14 +29,11 @@ If you find the code and pre-trained models useful in your research, please cons
 
 1. Download and unzip the project code.
 
-2. Install caffe. We call the root directory of the project code `WSL_ROOT`.
+2. Install Caffe. Please follow the [Caffe installation instructions](http://caffe.berkeleyvision.org/installation.html) to install dependencies and then compile Caffe:
 
     ```
+    # We call the root directory of the project code `WSL_ROOT`.
     cd $WSL_ROOT/caffe-wsl
-    # Now follow the Caffe installation instructions here:
-    # http://caffe.berkeleyvision.org/installation.html
-    # If you're experienced with Caffe and have all of the requirements installed
-    # and your Makefile.config is in place, then simply do:
     make all -j8
     make pycaffe
     make matcaffe
@@ -58,8 +55,8 @@ If you find the code and pre-trained models useful in your research, please cons
 
 5. Download the pre-computed EdgeBox proposals and put them into `$WSL_ROOT/data/edgebox_data`.
 
-- [voc_2007_trainval](https://drive.google.com/open?id=0BynEQyOSGRoSR0pYaVFNYkpkUVU)
-- [voc_2007_test](https://drive.google.com/open?id=0BynEQyOSGRoSbzhGbjM0RE5yNXM)
+    - [voc_2007_trainval](https://drive.google.com/open?id=0BynEQyOSGRoSR0pYaVFNYkpkUVU)
+    - [voc_2007_test](https://drive.google.com/open?id=0BynEQyOSGRoSbzhGbjM0RE5yNXM)
 
 6. Install the project.
 
